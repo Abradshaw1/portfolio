@@ -14,45 +14,52 @@
 	<body class="is-preload">
 
 		<!-- Nav -->
-		<nav id="nav" style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
+		<nav id="nav" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #111; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
 			<!-- Name on the left -->
-			<div id="name" style="font-size: 24px; font-weight: bold;">
+			<div id="name" style="font-size: 24px; font-weight: bold; color: #fff;">
 				Aidan Bradshaw
 			</div>
 		
 			<!-- Navigation links on the right -->
 			<ul class="container" style="display: flex; list-style: none; margin: 0; padding: 0;">
-				<li style="margin-left: 20px;"><a href="#top">Top</a></li>
-				<li style="margin-left: 20px;"><a href="#work">About Me</a></li>
-				<li style="margin-left: 20px;"><a href="#portfolio">Projects</a></li>
-				<li style="margin-left: 20px;"><a href="#contact">Contact</a></li>
+				<li style="margin-left: 20px;"><a href="#top" style="text-decoration: none; color: #fff;">Top</a></li>
+				<li style="margin-left: 20px;"><a href="#work" style="text-decoration: none; color: #fff;">About Me</a></li>
+				<li style="margin-left: 20px;"><a href="#portfolio" style="text-decoration: none; color: #fff;">Projects</a></li>
+				<li style="margin-left: 20px;"><a href="#contact" style="text-decoration: none; color: #fff;">Contact</a></li>
 			</ul>
 		</nav>
 
 		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit" style="max-width: 150px; max-height: 150px; margin: auto;"><img src="images/pic00.jpg" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1><strong>Aidan Bradshaw</strong></h1>
-							</header>
-							<p style="text-align: center; font-size: 18px; line-height: 1.5;">
-								<strong>Applied Machine Learning and AI Researcher</strong>
-							</p>
-							<p style="text-align: center; font-size: 16px; line-height: 1.5;">
-								I am currently a master's student at Carnegie Mellon University in Applied Data Science and a machine learning researcher in the 
-								<a href="https://dig.cmu.edu/" target="_blank" style="text-decoration: none; color: #3498db;"><strong>Dig Lab</strong></a> 
-								at the Human-Computer Interaction Institute.
-							</p>
-							<a href="#work" class="button large scrolly">About me</a>
-						</div>
-					</div>
+		<article id="top" class="wrapper style1" style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; padding: 100px 20px 50px;">
+			<div style="max-width: 700px;">
+				<!-- Image Section -->
+				<div style="margin-bottom: 20px;">
+					<span class="image fit" style="max-width: 150px; max-height: 150px; border-radius: 50%; display: inline-block;">
+						<img src="images/pic00.jpg" alt="Profile Image" style="border-radius: 50%; width: 100%; height: auto;" />
+					</span>
 				</div>
-			</article>
+		
+				<!-- Header Section -->
+				<header>
+					<h1 style="font-size: 36px; margin-bottom: 10px;"><strong>Aidan Bradshaw</strong></h1>
+				</header>
+				
+				<!-- Sub-header Section -->
+				<p style="font-size: 20px; margin-bottom: 20px; color: #555;">
+					<strong>Applied Machine Learning and AI Researcher</strong>
+				</p>
+				
+				<!-- Description Section -->
+				<p style="font-size: 16px; color: #777; line-height: 1.6;">
+					I am currently a master's student at Carnegie Mellon University in Applied Data Science and a machine learning researcher in the 
+					<a href="https://dig.cmu.edu/" target="_blank" style="text-decoration: none; color: #3498db;"><strong>Dig Lab</strong></a> 
+					at the Human-Computer Interaction Institute.
+				</p>
+				
+				<!-- Button Section -->
+				<a href="#work" class="button large scrolly" style="margin-top: 20px; padding: 10px 30px; font-size: 18px; text-decoration: none; background: #3498db; color: white; border-radius: 5px;">About me</a>
+			</div>
+		</article>
 
 		<!-- Work -->
 			<article id="work" class="wrapper style2">
