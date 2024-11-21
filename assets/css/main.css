@@ -84,8 +84,8 @@ input, select, textarea {
 
 	body {
 		padding-top: 3.5em;
-		margin: 0 20px; /* Adjust the 20px as needed */
-    	background-color: #f9f9f9; /* Lightly tinted white background */
+		margin: 0 100px; /* Adjust the 20px as needed */
+    	background-color: #fffef7; /* Lightly tinted white background */
     	color: #000;
 	}
 
@@ -118,7 +118,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0;
+			color: #104e8b;
 		}
 		
 		a.special-link {
@@ -2008,16 +2008,16 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #fffef7;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #fffef7;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #fffef7;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -2028,7 +2028,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: #fffef7;
 			}
 
 			.wrapper.style4 form input[type=text],
@@ -2049,16 +2049,17 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #f4f4f4;
-		text-align: right;
-		position: fixed;
-		left: 0;
-		top: 0;
-		width: 100%;
-		z-index: 10000;
-		cursor: default;
-		height: 3.5em;
-		line-height: 3.5em;
+		background-color: #f4f4f4; /* Keep the light gray background */
+    	text-align: right;
+    	position: fixed;
+    	left: 0;
+    	top: 0;
+    	width: calc(100% - 200px); /* Adjust width to account for the body margins */
+    	margin: 0 100px; /* Align with the body margins */
+    	z-index: 10000;
+    	cursor: default;
+    	height: 3.5em;
+    	line-height: 3.5em;
 	}
 
 		#nav ul {
