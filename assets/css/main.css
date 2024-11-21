@@ -84,6 +84,9 @@ input, select, textarea {
 
 	body {
 		padding-top: 3.5em;
+		margin: 0 20px; /* Adjust the 20px as needed */
+    	background-color: #f9f9f9; /* Lightly tinted white background */
+    	color: #000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,16 +118,16 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #43bff0;
 		}
 		
 		a.special-link {
-			color: #1e90ff !important; /* Ensure it's blue */
-			text-decoration: none !important; /* Remove underline */
+			color: #1e90ff; /* Ensure it's blue */
+			text-decoration: none ; /* Remove underline */
 		}
 		
 		a.special-link:hover {
-			color: #1e90ff !important; /* Keep the hover state blue */
+			color: #1e90ff ; /* Keep the hover state blue */
 		}
 		
 
@@ -2046,8 +2049,8 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
-		text-align: center;
+		background-color: #f4f4f4;
+		text-align: right;
 		position: fixed;
 		left: 0;
 		top: 0;
