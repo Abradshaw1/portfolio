@@ -2049,12 +2049,12 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #fffef7; /* Keep the light gray background */
+		background-color: #fffef7; 
     	text-align: right;
     	position: fixed;
     	left: 0;
     	top: 0;
-    	width: calc(100% - 200px); /* Adjust width to account for the body margins */
+    	width: 100%; /* Adjust width to account for the body margins */
     	margin: 0 100px; /* Align with the body margins */
     	z-index: 10000;
     	cursor: default;
