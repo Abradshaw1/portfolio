@@ -117,6 +117,16 @@ input, select, textarea {
 		a:hover {
 			color: #43bff0 !important;
 		}
+		
+		a.special-link {
+			color: #1e90ff !important; /* Ensure it's blue */
+			text-decoration: none !important; /* Remove underline */
+		}
+		
+		a.special-link:hover {
+			color: #1e90ff !important; /* Keep the hover state blue */
+		}
+		
 
 		a img {
 			border: 0;
