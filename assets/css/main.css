@@ -84,9 +84,8 @@ input, select, textarea {
 
 	body {
 		padding-top: 3.5em;
-		margin: 0 100px; /* Adjust the 20px as needed */
+		margin: 0 175px; /* Adjust the 20px as needed */
     	background-color: #fffef7; /* Lightly tinted white background */
-    	color: #000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2057,7 +2056,7 @@ input, select, textarea {
 		padding-right: 20;
     	top: 0;
     	width: 100%; /* Adjust width to account for the body margins */
-    	margin: 0 100px; /* Align with the body margins */
+    	margin: 0 175px; /* Align with the body margins */
     	z-index: 10000;
     	cursor: default;
     	height: 3.5em;
