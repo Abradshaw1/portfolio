@@ -2053,6 +2053,7 @@ input, select, textarea {
     	text-align: right;
     	position: fixed;
     	left: 0;
+		padding-right: 20;
     	top: 0;
     	width: 100%; /* Adjust width to account for the body margins */
     	margin: 0 100px; /* Align with the body margins */
@@ -2093,7 +2094,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #484848 !important;
-				background: #1b65ae;
+				background: #9bbcdd;
 			}
 
 			#nav a.active {
