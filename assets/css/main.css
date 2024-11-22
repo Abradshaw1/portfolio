@@ -2055,7 +2055,7 @@ input, select, textarea {
     	left: 0;
     	top: 0;
     	width: 100%; /* Adjust width to account for the body margins */
-    	margin: 100px 100px; /* Align with the body margins */
+    	margin: 0 100px; /* Align with the body margins */
     	z-index: 10000;
     	cursor: default;
     	height: 3.5em;
