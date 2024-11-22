@@ -118,21 +118,21 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #104e8b;
+			color: #9dceff;
 		}
 		
 		a.special-link {
-			color: #1e90ff; /* Ensure it's blue */
-			text-decoration: none ; /* Remove underline */
+			color: #9dceff; /* Ensure it's blue */
 		}
 		
 		a.special-link:hover {
-			color: #1e90ff ; /* Keep the hover state blue */
+			color: #9dceff ; /* Keep the hover state blue */
 		}
 		
 
 		a img {
 			border: 0;
+			color: #9dceff;
 		}
 
 	b, strong {
@@ -2067,6 +2067,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
+			padding-right: 20;
 		}
 
 		#nav li {
@@ -2094,7 +2095,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #484848 !important;
-				background: #9bbcdd;
+				background: #9dceff;
 			}
 
 			#nav a.active {
@@ -2117,11 +2118,13 @@ input, select, textarea {
 
 	body > article {
 		margin-bottom: 0;
+		border: none;
 	}
 
 	#top {
 		padding: 10em 0 10em 0;
 		text-align: left;
+		border: none;
 	}
 
 		#top .image {
