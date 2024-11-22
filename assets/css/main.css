@@ -2092,8 +2092,8 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: #fff !important;
-				background: #383838;
+				color: #484848 !important;
+				background: #1b65ae;
 			}
 
 			#nav a.active {
