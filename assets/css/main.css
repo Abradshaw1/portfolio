@@ -18,10 +18,9 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-	border: none;
-	max-width: 800px;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -87,8 +86,7 @@ input, select, textarea {
 		padding-top: 3.5em;
 		margin: 20px; /* Adjust the 20px as needed */
     	background-color: #fffef7; /* Lightly tinted white background */
-		margin-left: 50px;
-		margin-right: 50px;
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
