@@ -84,8 +84,10 @@ input, select, textarea {
 
 	body {
 		padding-top: 3.5em;
-		margin: 300px; /* Adjust the 20px as needed */
+		margin: 20px; /* Adjust the 20px as needed */
     	background-color: #fffef7; /* Lightly tinted white background */
+		margin-left: 50px;
+		margin-right: 50px;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
