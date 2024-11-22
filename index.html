@@ -41,26 +41,34 @@
 		</nav>
 
 		<!-- Home -->
-		<article id="top" class="wrapper style1">
-			<div class="centered-content">
-			  <!-- Profile Image -->
-			  <div class="profile">
-				<img src="images/Headshot1.jpg" alt="Profile Image" />
-				<!-- Name -->
-				<h1>Aidan Bradshaw</h1>
-				<!-- Title -->
-				<p><strong>Applied Machine Learning and AI Researcher</strong></p>
-				<!-- Bio -->
-				<p>
-				  I am currently a master's student at Carnegie Mellon University in Applied Data Science and a machine learning researcher in the
-				  <a href="https://dig.cmu.edu/" target="_blank" class="special-link">Dig Lab</a>
-				  at the
-				  <a href="https://hcii.cmu.edu/" target="_blank" class="special-link">Human-Computer Interaction Institute</a>.
-				  My current work focuses on applied machine learning in healthcare settings.
-				</p>
-			  </div>
-			</div>
-		  </article>
+		<article id="top" class="wrapper style1" 
+    style="display: flex; align-items: center; padding: 100px 50px; gap: 50px; flex-wrap: wrap;">
+    <!-- Image Section -->
+    <div style="max-width: 200px; flex-shrink: 0; text-align: center;">
+        <span class="image fit" style="display: block; margin: 0 auto;">
+            <img src="images/Headshot1.jpg" alt="Profile Image" 
+                 style="border-radius: 50%; width: 100%; height: auto; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);" />
+        </span>
+    </div>
+
+    <!-- Text Section -->
+    <div style="flex: 1; min-width: 300px; margin-left: 120px;">
+        <header>
+            <h1 style="font-size: 48px; margin-bottom: 5px; color: #383838;"><strong>Aidan Bradshaw</strong></h1>
+        </header>
+        <p style="font-size: 22px; margin-bottom: 15px; color: #383838;">
+            <strong>Applied Machine Learning and AI Researcher</strong>
+        </p>
+        <p style="font-size: 18px; color: #383838; line-height: 1.8;">
+            I am currently a master's student at Carnegie Mellon University in Applied Data Science and a machine learning researcher in the 
+            <a href="https://dig.cmu.edu/" target="_blank" style="color: #9dceff !important;"><strong>Dig Lab</strong></a> 
+			at the 
+			<a href="https://hcii.cmu.edu/" target="_blank" style=" color: #9dceff !important;"><strong>Human-Computer Interaction Institute</strong></a>.
+			My current work focuses on applied machine learning in healthcare settings.
+			I explain generative 3D medical image diffuson models as well as operationalize thier usage and deployent to health experts and patients.
+        </p>
+    </div>
+</article>
 
 
 		<!-- Work -->

@@ -72,48 +72,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Centered Container */
-.centered-content {
-	max-width: 800px; /* Limit the width of the container */
-	margin: 0 auto; /* Center horizontally */
-	padding: 40px 20px; /* Add padding around the content */
-	text-align: center; /* Align content to the center */
-  }
-  
-  /* Profile Section Styling */
-  .profile img {
-	border-radius: 50%; /* Circular image */
-	width: 180px; /* Fixed width */
-	height: 180px; /* Fixed height */
-	margin-bottom: 20px; /* Space below the image */
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
-  }
-  
-  .profile h1 {
-	font-size: 2.5rem; /* Adjust font size for the name */
-	margin-bottom: 10px;
-	color: #2c3e50; /* Darker color for the name */
-  }
-  
-  .profile p {
-	font-size: 1.2rem; /* Slightly larger text */
-	line-height: 1.6; /* Better line spacing */
-	color: #555; /* Medium gray for better readability */
-	margin-bottom: 15px; /* Add spacing between paragraphs */
-  }
-  
-  /* Link Styling */
-  .profile a.special-link {
-	color: #0073e6; /* Link color */
-	text-decoration: none;
-	font-weight: bold;
-  }
-  
-  .profile a.special-link:hover {
-	color: #0056b3; /* Darker hover color */
-	text-decoration: underline;
-  }
-
 /* Basic */
 
 	html {
